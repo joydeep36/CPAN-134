@@ -1,0 +1,31 @@
+<label for="my_date">Set the date of today:</label>
+<input type="date" name="today" id="today" />
+<br>
+<br>
+
+<label for="pickNumber">Pick a number from 0 to 25</label>
+<input type="number" name="pickNumber" id="pickNumber" min="0" max="25" />
+<br>
+<br>
+
+<label for="course">What course are you taking?</label>
+<input type="text" name="course" id="course" list="MyCourse" />
+<datalist id="MyCourse">
+  <option value="CPAN111" label="CPAN111"></option>
+  <option value="CPAN134" label="CPAN134"></option>
+  <option value="CPAN112" label="CPAN112"></option>
+  <option value="CPAN116" label="CPAN116"></option>
+</datalist>
+<br>
+<br>
+
+Email: <input type="email" name="email" id="emailAddress" maxlength="35" />
+<br>
+<br>
+
+Phone Number: <input type="tel" id="tel" maxlength="10" />
+<br>
+<br>
+
+<input type="submit" name="submitButton" id="submitButton" value="Submit" />
+<input type="reset" name="resetButton" id="resetButton" value="Reset" />
